@@ -41,7 +41,7 @@
 		@keyframes a105{0%{stroke-dashoffset:105px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
 		@keyframes f201{0%{stroke-dashoffset:201px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
 		@keyframes opacity{0%{opacity: 0;}100%{opacity: 1;}}
-		@keyframes translateX{0%{transform: translateX(-300px);}50%{transform: translateX(20px);}100%{transform: translateX(0px);}}
+		@keyframes translateX{0%{transform: translateX(-600px);}50%{transform: translateX(20px);}100%{transform: translateX(0px);}}
 /* *********************************** */
 	.a01n,.a02o,.a03s,.a04o,.a05t,.a06t,.a07r,.a08o,.a09s,.a10n,.a11o{fill:none; stroke-width: var(--widthLine) ; stroke:var(--colorLine);opacity: 0;}
 	.a01n{stroke-dasharray: 105px;animation: a105 var(--time) forwards;}
@@ -135,7 +135,7 @@
 	.logo06{fill-rule:evenodd;clip-rule:evenodd;fill:#F05523;}
 	.logo07{fill-rule:evenodd;clip-rule:evenodd;fill:#F48534;}
 	.logo02,.logo03,.logo04,.logo05,.logo06,.logo07{opacity: 0;animation: opacity 1s forwards calc( var(--time) * 105 ) ;}
-	.link01{fill:#fff;transform: translateX(-300px);animation: translateX 1s forwards calc( var(--time) * 110 ) ;}
+	.link01{fill:#fff;transform: translateX(-600px);animation: translateX 1s forwards calc( var(--time) * 110 ) ;}
 </style>
 <rect x="0" y="0" class="fondo" width="320" height="600"/>
 <g id="uno">
