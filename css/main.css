@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300;800&display=swap');
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: 'M PLUS 1', sans-serif;
+    /* user-select: none; */
+}
+html {scroll-behavior: smooth;}
+body{background: #000;}
+section.relleno{width: 100%;height: 100vh;background: #f00;
+}
+/* ***** titulo de la Pg **** */
+section.tituloPg{width: 100%;margin: auto;color: #fff;font-weight: bold;text-align: center;
+    margin-top: 50vh;
+    padding: 50px 10px;
+    background-image: url(../assets/img/separador.svg);background-repeat: no-repeat;background-size: cover;background-position: center;
+    text-shadow: 1px 1px 5px rgba(0 0 0 / 1);
+}
+@media screen and (min-width: 640px) {
+    section.tituloPg{   padding: 50px;  font-size: 1.1em;   }
+}
+@media screen and (min-width: 1400px) {
+    section.tituloPg{ font-size: 1.5em;   }
+}
+/* ***** titulo de la Secc con **** */
+section.tituloSecc{width: 100%;font-weight: bold;text-align: center;color: #fff;text-shadow: 1px 1px 5px rgba(0 0 0 / 1);
+    background-image: url(../assets/img/separador.svg);background-repeat: no-repeat;background-size: cover;
+    padding: 20px 5px;
+}
+section.tituloSecc a{text-align: center;text-decoration: none;padding: 10px;color: #fff;}
+section.tituloSecc a:hover{text-decoration: none;color: #000;text-shadow: 0 0 0 rgba(0 0 0 / 1);}
+@media screen and (min-width: 640px) {
+    section.tituloSecc{   padding: 50px;  font-size: 1.1em;   }
+}
+@media screen and (min-width: 1400px) {
+    section.tituloSecc{ font-size: 1.5em;   }
+}
+/* ***** titulo de la Secc sin **** */
+section.tituloSeccSin{width: 100%;font-weight: bold;text-align: center;color: #000;
+    background: #ddd;
+    padding: 20px 5px;
+}
+@media screen and (min-width: 640px) {
+    section.tituloSeccSin{   padding: 50px;  font-size: 1.1em;   }
+}
+@media screen and (min-width: 1400px) {
+    section.tituloSeccSin{ font-size: 1.5em;   }
+}
+
+section.sectionCenter{
+    width: 100%;
+    min-height: 200px;
+    background: #ddd;
+    position: relative;
+}

@@ -1,0 +1,113 @@
+.casaOraDescripForm{
+    width: 100%;
+    min-height: 400px;
+    background: #ddd;
+    position: relative;
+    padding: 50px 0;
+}
+.oraForm{
+    width: 90%;
+    padding: 50px 20px;
+    background: #fff;
+    margin: auto;
+    margin-bottom: 50px;
+}
+:root {
+    --alert: #d40c00;
+    --ok: #00a111;
+    --alertLine: #d40c00;
+    --okLine: #00a111;
+    --colorIni: #5757577e;
+}
+textarea {
+    resize: none;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.forSect{
+    width: 100%;
+    margin-top: 50px;
+}
+.formGroup {
+    position: relative;
+    margin-bottom: 30px;
+}
+.formInput {
+    width: 100%;
+    color: var(--colorIni);
+    font-size: 1.5rem;
+    padding: .6em .3em;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--colorIni);
+    font-family: 'M PLUS 1', sans-serif;
+}
+.formLabel {
+    position: absolute;
+    cursor: pointer;
+    color: var(--colorIni);
+    top: 0;
+    left: 5px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+.formInput:focus + .formLabel,
+.formInput:not(:placeholder-shown) + .formLabel {
+    transform: translateY(-12px) scale(.8);
+    transform-origin: left top;
+    color: var(--alert);
+}
+.formInput:not(:placeholder-shown) {
+    color: #4d4646;
+}
+.formEnviar {
+    font-size: 1rem;
+    padding: .8em 0;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+.formLine {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #5757577e;
+    transform: scale(0);
+    transform-origin: left bottom;
+    transition: transform 1s;
+}
+.formInput:focus ~ .formLine,
+.formInput:not(:placeholder-shown) ~ .formLine {
+    transform: scale(1);
+}
+/* acive */
+.alert {
+    color: var(--alert);
+    font-size: 0.8em;
+}
+@media screen and (min-width: 768px) {
+    .casaOraDescripForm{
+        width: 100%;
+        min-height: 400px;
+        background: #ddd;
+        position: relative;
+        padding: 50px;
+    }
+    .form {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .forSect{
+        width: 45%;
+        margin-top: 100px;
+    }
+}
+@media screen and (min-width: 1024px) {}
+@media screen and (min-width: 1440px) {}
+@media screen and (min-width: 2560px) {}

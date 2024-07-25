@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.in{fill:none;stroke:#fff;stroke-width:3;opacity: 0;
+		stroke-dasharray: 1200px;
+		animation: mundoLine2 1s forwards linear;
+	}
+	@keyframes mundoLine2{0%{stroke-dashoffset:-1200px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
+	.dos{fill-rule:evenodd;clip-rule:evenodd;fill:#fff;}
+	.tres{fill-rule:evenodd;clip-rule:evenodd;fill:#fff; opacity:0;
+		animation: translateY3 2s infinite linear 5s;
+	}
+	.lineIz1,.lineDr1{fill:none;stroke:#fff;stroke-width:3;
+		stroke-dasharray: 90px;
+		animation: mundoLine3 0.5s forwards,
+					translateY3 2s infinite linear 5s;
+	}
+	@keyframes mundoLine3{0%{stroke-dashoffset:90px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
+	.lineIz2,.lineDr2{fill:none;stroke:#fff;stroke-width:3;opacity: 0;
+		stroke-dasharray: 90px;
+		animation: mundoLine33 1s forwards 1s;
+	}
+	.lineIz3,.lineDr3{fill:none;stroke:#fff;stroke-width:3;opacity: 0;
+		stroke-dasharray: 125px;
+		animation: mundoLine4 1s forwards 2s;
+	}
+	@keyframes mundoLine4{0%{stroke-dashoffset:125px;opacity:1;}100%{stroke-dashoffset:0px;opacity:1;}}
+	
+	
+
+	.txtScroll{fill:#fff;
+		animation: translateY3 2s infinite linear 4s;
+	}
+	.lineScroll{fill:none;stroke:#fff;stroke-width:2;
+		animation: translateY3 2s infinite linear 4s;
+	}
+	.arrowScroll{fill:none;stroke:#fff;stroke-width:2;
+		animation: translateY3 2s infinite linear 4s;
+	}
+	@keyframes translateY3{
+		0%{transform: translateY(0px);opacity:1;}
+		50%{transform: translateY(30px);opacity:1;}
+		100%{transform: translateY(30px);opacity:0;}
+	}
+</style>
+<path class="in" d="M215.7,44.7h80.5c45.4,0,82.5,37.1,82.5,82.5v258.1c0,45.4-37.1,82.5-82.5,82.5h-80.5
+	c-45.4,0-82.5-37.1-82.5-82.5V127.2C133.3,81.9,170.4,44.7,215.7,44.7z"/>
+<path class="tres" d="M256,248.3c6.5,0,11.7,5.2,11.7,11.7c0,6.5-5.2,11.7-11.7,11.7c-6.5,0-11.7-5.2-11.7-11.7
+	C244.3,253.6,249.5,248.3,256,248.3"/>
+<path class="dos" d="M256,166.9c9.7,0,17.6,7.9,17.6,17.6c0,9.7-7.9,17.6-17.6,17.6s-17.6-7.9-17.6-17.6
+	C238.4,174.7,246.3,166.9,256,166.9"/>
+<line class="lineDr3" x1="257" y1="426.3" x2="169.6" y2="335.3"/>
+<line class="lineIz3" x1="257" y1="426.3" x2="344.4" y2="335.3"/>
+<line class="lineIz1" x1="257" y1="370.6" x2="317.4" y2="307.7"/>
+<line class="lineDr1" x1="257" y1="370.6" x2="196.7" y2="307.7"/>
+<line class="lineIz2" x1="257" y1="398.2" x2="317.4" y2="335.3"/>
+<line class="lineDr2" x1="257" y1="398.2" x2="196.7" y2="335.3"/>
+
+<path class="txtScroll" d="M424.8,268.7h27.5v7.7h-21.1v13h-6.4V268.7z M424.8,244.9h27.5v7.7h-21.1v13h-6.4V244.9z M430.9,227.2
+	c0,1.5,0.3,2.7,0.9,3.6c0.6,1,1.4,1.7,2.6,2.2c1.1,0.5,2.6,0.7,4.3,0.7c1.7,0,3.1-0.2,4.3-0.7c1.1-0.5,2-1.2,2.6-2.2
+	c0.6-1,0.9-2.2,0.9-3.6c0-1.5-0.3-2.7-0.9-3.6c-0.6-1-1.4-1.7-2.6-2.2c-1.1-0.5-2.6-0.7-4.3-0.7c-1.7,0-3.1,0.2-4.3,0.7
+	c-1.1,0.5-2,1.2-2.6,2.2C431.1,224.5,430.9,225.7,430.9,227.2z M424.5,227.2c0-3,0.6-5.5,1.7-7.7c1.1-2.1,2.7-3.8,4.8-4.9
+	c2.1-1.1,4.6-1.7,7.6-1.7c3,0,5.5,0.6,7.6,1.7c2.1,1.1,3.7,2.8,4.8,4.9c1.1,2.1,1.7,4.7,1.7,7.7c0,3-0.6,5.6-1.7,7.7
+	c-1.1,2.1-2.7,3.8-4.8,4.9c-2.1,1.1-4.6,1.7-7.6,1.7c-3,0-5.5-0.6-7.6-1.7c-2.1-1.1-3.7-2.8-4.8-4.9
+	C425,232.8,424.5,230.2,424.5,227.2z M424.8,203l12.3-9.7v8l-12.3,10V203z M424.8,187.6h27.5v9.5c0,4.2-0.7,7.3-2.2,9.3
+	c-1.5,2-3.7,3-6.7,3c-2.9,0-5.2-0.9-6.7-2.8c-1.6-1.8-2.3-4.5-2.3-8v-7.3h5.5v6.1c0,1.5,0.3,2.6,0.8,3.2c0.5,0.7,1.3,1,2.4,1
+	c1.1,0,1.9-0.3,2.4-1c0.5-0.7,0.8-1.8,0.8-3.2v-2.3h-21.4V187.6z M424.5,174.6c0-3.1,0.5-5.8,1.6-8c1.1-2.2,2.7-3.9,4.8-5
+	c2.1-1.1,4.7-1.7,7.7-1.7c3,0,5.6,0.6,7.7,1.7c2.1,1.1,3.7,2.8,4.8,5c1.1,2.2,1.6,4.9,1.6,8c0,3.5-0.7,6.7-2.1,9.4l-6.4-1.6
+	c1.4-2.7,2.1-5.1,2.1-7.4c0-1.5-0.3-2.8-0.9-3.9c-0.6-1.1-1.5-1.9-2.6-2.4c-1.1-0.6-2.5-0.8-4.2-0.8c-1.6,0-3,0.3-4.2,0.8
+	c-1.2,0.6-2,1.4-2.6,2.4c-0.6,1.1-0.9,2.4-0.9,3.9c0,2.3,0.7,4.8,2.1,7.4l-6.4,1.6C425.2,181.2,424.5,178.1,424.5,174.6z M424.5,146
+	c0-2.1,0.2-4,0.6-5.9c0.4-1.9,1-3.4,1.8-4.7l6.4,1.6c-0.5,0.9-0.9,1.9-1.3,3c-0.4,1.1-0.7,2.2-0.9,3.4c-0.2,1.1-0.3,2.2-0.3,3.1
+	c0,1.1,0.2,1.9,0.5,2.5c0.4,0.6,0.9,0.9,1.5,0.9c0.3,0,0.6-0.1,0.9-0.3c0.3-0.2,0.5-0.5,0.8-0.9c0.2-0.4,0.5-1,0.8-1.8
+	c0.3-0.8,0.6-1.7,0.9-2.9c0.4-1.5,0.9-2.8,1.4-3.8c0.6-1.1,1.2-2,1.9-2.7c0.7-0.7,1.5-1.2,2.4-1.6c0.9-0.3,1.8-0.5,2.9-0.5
+	c2.6,0,4.6,1,6,3c1.4,2,2.1,4.9,2.1,8.7c0,1.8-0.2,3.6-0.5,5.4c-0.3,1.8-0.8,3.4-1.3,4.7l-6.4-1.6c0.7-1.4,1.1-2.8,1.5-4.3
+	c0.3-1.5,0.5-3,0.5-4.4c0-1.3-0.1-2.2-0.4-2.8c-0.3-0.6-0.8-0.9-1.4-0.9c-0.4,0-0.7,0.1-1,0.2c-0.3,0.2-0.6,0.4-0.8,0.8
+	c-0.3,0.4-0.5,1-0.8,1.7c-0.3,0.7-0.6,1.6-0.9,2.8c-0.5,1.6-1,3-1.5,4.1c-0.6,1.1-1.2,2-1.8,2.8c-0.7,0.7-1.4,1.2-2.3,1.6
+	c-0.8,0.3-1.8,0.5-2.8,0.5c-2.7,0-4.7-1-6.1-3.1C425.2,152.7,424.5,149.8,424.5,146z"/>
+<line class="lineScroll" x1="438.2" y1="299" x2="438.2" y2="399.6"/>
+<polyline class="arrowScroll" points="451.2,388.1 438.2,401 425.2,388.1 "/>
+</svg>

@@ -1,0 +1,60 @@
+section.serviciosBTN{
+    width: 100%;
+    background: #fff;
+    padding: 50px 0;
+}
+.serviciosBTNConte{
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0px 0px 3px rgba(0 0 0 / .9);
+    /* background-image: url(../../assets/img/separador.svg); */
+}
+.serBtnSeccA,.serBtnSeccB{
+    width: calc(100% / 1);
+    display: flex;
+    gap: 10px;
+}
+.serBtnSeccB{
+    margin-top: 10px;
+}
+.serCOra,.serSobre,.serEvent,.serCPaz,.serKids,.serGen{
+    height: 150px;
+    width: calc(100% / 3);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80% 80%;
+    padding: 30px;
+    box-shadow: 0 0 3px rgba(0 0 0 / .3);
+    transition: all 0.3s ease-in-out;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.serCOra:hover,.serSobre:hover,.serEvent:hover,.serCPaz:hover,.serKids:hover,.serGen:hover{
+    background-color: #aaa;
+    filter: grayscale(0%);
+    border-radius: 20px;
+}
+
+
+
+/* ***************************** */
+.serCOra{
+    background-image: url(../../assets/img/servicios/1casaDeOracionBTN.svg);
+}
+.serSobre{
+    background-image: url(../../assets/img/servicios/2sobreBTN.svg);
+}
+.serEvent{
+    background-image: url(../../assets/img/servicios/3eventBTN.svg);
+}
+.serCPaz{
+    background-image: url(../../assets/img/servicios/4casaDePazBTN.svg);
+}
+.serKids{
+    background-image: url(../../assets/img/servicios/5kidsBTN.svg);
+}
+.serGen{
+    background-image: url(../../assets/img/servicios/6genBTN.svg);
+}

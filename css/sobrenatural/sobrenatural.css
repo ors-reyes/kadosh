@@ -1,0 +1,118 @@
+section.sobrenatural{
+    width: 100%;
+    min-height: 200px;
+    background: #ddd;
+    position: relative;
+}
+.sobreTitulo{
+    width: 100%;
+    padding: 20px;
+    background: #0D71B7;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 15px 15px 0 0;
+}
+.sobreConten{
+    width: 100%;
+    background: #fff;
+    padding: 0 0 70px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.sobreLogo{
+    background-image: url(../../assets/img/sobrenatural/sobrenaturalLogo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    min-height: 150px;
+    background-position: 50%;
+}
+.sobreContentTxt{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+.sobreContentIconIglesia{
+    width: 80%;
+    margin: auto;
+    background-image: url(../../assets/img/sobrenatural/kadosSobreIcon.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+    background-position: 50%;
+    /* background-color: #00f; */
+}
+.sobreContentLeerMas{
+    /* background-color: #0ff; */
+    width: 50%;
+    background-image: url(../../assets/img/sobrenatural/leerMas.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 150px;
+    background-position: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+@media screen and (min-width: 768px) {
+    .sobreConten{
+        padding: 0 0 70px 0;
+        display: flex;
+        flex-direction: row;
+    }
+    .sobreLogo{
+        width: 100%;
+        margin: auto;
+        min-height: 150px;
+    }
+    .sobreContentTxt{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+    }
+    .flex{
+        padding-top: 50px;
+        display: flex;
+        gap: 20px;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .sobreContentIconIglesia{
+        width: 50%;
+        margin: auto;
+        background-image: url(../../assets/img/sobrenatural/kadosSobreIcon.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 150px;
+        background-position: 50%;
+    }
+    .sobreLogo{
+        width: 50%;
+        margin: auto;
+        min-height: 250px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .sobreLogo{
+        width: 50%;
+        margin: auto;
+        min-height: 300px;
+        /* background-color: #00f; */
+    }
+    .sobreContentTxt{
+        width: 80%;
+        text-align: center;
+        margin: auto;
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 2560px) {}

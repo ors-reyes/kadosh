@@ -1,0 +1,88 @@
+.genDivicionImgG{
+    width: 100vw;
+    height: calc(100vw / 1);
+    background-image: url(../../assets/img/kids/fndA.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.genImgTxt{
+    width: 90%;
+    min-height: 100px;
+    color: #fff;
+    padding: 50px;
+    background: rgba(0, 0, 0, .7);
+    text-align: center;
+    position: absolute;
+    border-radius: 30px;
+    text-shadow: 1px 1px 5px #000;
+}
+.genImgTxt span{
+    font-weight: bold;
+}
+.genDivicionImgGB{
+    width: 100vw;
+    height: calc(100vw / 1);
+    background-image: url(../../assets/img/kids/fndB.jpg);
+    margin: auto;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoTrnasparente{
+    width: 50%;
+    height: 50%;
+    background-image: url(../../assets/img/generacion/logoTrasnparente.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 300px;
+}
+.genDivicionImgGC{
+    display: none;
+    width: 100vw;
+    height: calc(100vw / 3);
+    max-width: 1300px;
+    min-height: 500px;
+    margin: auto;
+    background-image: url(../../assets/img/kids/kadoshKids.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 500px;
+    background-color: #fff;
+}
+.clickCont{
+    background: #fff !important;
+}
+section.slider {
+    background: #fff !important;
+}
+.sliderContenedor {
+    border: 10px solid #ddd !important;
+}
+@media screen and (min-width: 500px) {
+    .genImgTxt{
+        bottom: 100px;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .genDivicionImgG{
+        height: calc(100vw / 2);
+    }
+    .genDivicionImgGB{
+        height: calc(100vw / 2);
+    }
+}
+@media screen and (min-width: 1440px) {
+    .genImgTxt{
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width: 2560px) {}

@@ -1,0 +1,473 @@
+.isologo{
+
+    width: 500px;
+
+    height: 500px;
+
+    position: absolute;
+
+    right: 5%;
+
+    top: 20%;
+
+    opacity: 0.3;
+
+    background-image: url(../../assets/img/oracion/kadoshisologo.svg);
+
+    background-repeat: no-repeat;
+
+}
+
+.oraDescrip{
+
+    position: relative;
+
+    max-width: 1300px;
+
+    min-height: 400px;
+
+    margin: auto;
+
+    z-index: 2;
+
+}
+
+.oraTitulo{
+
+    width: 70%;
+
+    font-size: 1.5em;
+
+    font-weight: bolder;
+
+    margin: auto;
+
+    padding: 100px 0 0 0;
+
+    text-align: center;
+
+}
+
+.oraRespuesta{
+
+    padding: 20px;
+
+    width: 100%;
+
+    text-align: center;
+
+    font-size: 1em;
+
+}
+
+.oraDescripSecc{
+
+    width: 100%;
+
+    margin: auto;
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+.oraDescripSeccImg{
+
+    width: 90%;
+
+    margin: auto;
+
+    background-image: url(../../assets/img/oracion/descImg.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 450px;
+
+    background-position: center;
+
+    border: solid 10px #fff;
+
+    box-shadow: inset 1px 1px 5px rgba(0 0 0 / .3),
+
+                      1px 1px 5px rgba(0 0 0 / .3);
+
+}
+.oraDescripSeccImgPaz{
+
+    width: 90%;
+
+    margin: auto;
+
+    background-image: url(../../assets/img/oracion/descImgPaz.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 450px;
+
+    background-position: center;
+
+    border: solid 10px #fff;
+
+    box-shadow: inset 1px 1px 5px rgba(0 0 0 / .3),
+
+                      1px 1px 5px rgba(0 0 0 / .3);
+
+}
+.oraDescripSeccImgSocio{
+
+    width: 90%;
+
+    margin: auto;
+
+    background-image: url(../../assets/img/oracion/descImgSocio.jpg);
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 450px;
+
+    background-position: center;
+
+    border: solid 10px #fff;
+
+    box-shadow: inset 1px 1px 5px rgba(0 0 0 / .3),
+
+                      1px 1px 5px rgba(0 0 0 / .3);
+
+}
+
+.oraDescripSeccTxt{
+
+    width: 100%;
+
+}
+
+.seccTxtTitle{
+
+    width: 70%;
+
+    font-size: 1.5em;
+
+    font-weight: bolder;
+
+    margin: auto;
+
+    padding: 20px 0;
+
+    text-align: center;
+
+    border-bottom: 1px solid black;
+
+}
+
+.seccTxttxt{
+
+    width: 80%;
+
+    padding: 20px 0;
+
+    margin: auto;
+
+    font-size: 1em;
+
+}
+
+/* ***************** Divicion ******************** */
+
+section.oraDivicion{
+
+    width: 100%;
+
+    background: #ddd;
+
+}
+
+.oraDivicionImg{
+
+    width: 80%;
+
+    min-height: 200px;
+
+    background-image: url(../../assets/img/oracion/kadoshogotxt.svg);
+
+    margin: auto;
+
+    background-repeat: no-repeat;
+
+    background-position: 50%;
+
+    background-size: 100% 250px;
+
+    opacity: 0.3;
+
+}
+
+/* *************** Descripcion 2 */
+
+.oraRespuestaB{
+
+    padding: 40px;
+
+    width: 100%;
+
+    font-size: 1.2em;
+
+    background: #fff;
+
+    border-radius: 5px;
+
+}
+
+.seccTxtTitleB{
+
+    width: 100%;
+
+    /* width: 45%; */
+
+    font-size: 1.5em;
+
+    /* font-size: 2em; */
+
+    text-align: center;
+
+    font-weight: bolder;
+
+    margin-bottom: 20px;
+
+    padding-bottom: 20px;
+
+    border-bottom: 1px solid black;
+
+}
+
+.oraRespuestaB img{
+
+    width: 100%;
+
+    /* width: 45%; */
+
+    /* float: right; */
+
+    /* margin: 0 0 20px 20px; */
+
+    border: solid 10px #fff;
+
+    box-shadow: 1px 1px 5px rgba(0 0 0 / .3);
+
+}
+
+/* ***************** Divicion2 ******************** */
+
+.oraDivicionImg2{
+
+    width: 80%;
+
+    min-height: 400px;
+
+    background-image: url(../../assets/img/oracion/casaDeOracionB.svg);
+
+    margin: auto;
+
+    background-repeat: no-repeat;
+
+    background-position: 50%;
+
+    background-size: 80% auto;
+
+    display: none;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .oraDescripSecc{
+
+        width: 90%;
+
+        display: flex;
+
+        flex-direction: row;
+
+    }
+
+    .oraDescripSeccImg{
+
+        width: 50%;
+
+        background-image: url(../../assets/img/oracion/descImg.jpg);
+
+        height: 450px;
+
+        background-position: center;
+
+        border: solid 10px #fff;
+
+        box-shadow: inset 1px 1px 5px rgba(0 0 0 / .3),
+
+                          1px 1px 5px rgba(0 0 0 / .3);
+
+    }
+
+    .oraDescripSeccTxt{
+
+        width: 50%;
+
+    }
+
+    .seccTxtTitle{
+
+        width: 50%;
+
+        font-size: 2em;
+
+        font-weight: bolder;
+
+        margin: auto;
+
+        padding: 20px 0;
+
+        text-align: center;
+
+        border-bottom: 1px solid black;
+
+    }
+
+    .seccTxttxt{
+
+        width: 80%;
+
+        padding: 20px 0;
+
+        margin: auto;
+
+        font-size: 1.2em;
+
+    }
+
+    .oraDivicionImg2{
+
+        min-height: 300px;
+
+        background-size: auto 80%;
+
+        display: none;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .oraRespuesta{
+
+        padding: 50px;
+
+    }
+
+    section.oraDivicion{
+
+        padding: 50px;
+
+    }
+
+    .seccTxtTitleB{
+
+        width: 45%;
+
+        font-size: 2em;
+
+        text-align: center;
+
+        font-weight: bolder;
+
+        margin-bottom: 20px;
+
+        padding-bottom: 20px;
+
+        border-bottom: 1px solid black;
+
+    }
+
+    .oraRespuestaB img{
+
+        width: 45%;
+
+        float: right;
+
+        margin: 0 0 20px 20px;
+
+        border: solid 10px #fff;
+
+        box-shadow: 1px 1px 5px rgba(0 0 0 / .3);
+
+    }
+
+    /* ***************** Divicion2 ******************** */
+
+    .oraDivicionImg2{
+
+        width: 80%;
+
+        min-height: 600px;
+
+        background-image: url(../../assets/img/oracion/casaDeOracionB.svg);
+
+        margin: auto;
+
+        background-repeat: no-repeat;
+
+        background-position: 50%;
+
+        background-size: auto 80%;
+
+        display: none;
+
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .oraTitulo{
+
+        width: 50%;
+
+        font-size: 2em;
+
+        padding: 100px 0 0 0;
+
+    }
+
+    .oraRespuesta{
+
+        font-size: 1.2em;
+
+    }
+
+    .oraDivicionImg{
+
+        max-width: 1300px;
+
+        min-height: 400px;
+
+        background-image: url(../../assets/img/oracion/kadoshogotxt.svg);
+
+        margin: auto;
+
+        background-repeat: no-repeat;
+
+        background-position: 50%;
+
+        background-size: 100% 250px;
+
+        opacity: 0.3;
+
+    }
+
+}

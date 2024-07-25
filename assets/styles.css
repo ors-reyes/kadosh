@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "logo";
+  src:url("fonts/logo.eot");
+  src:url("fonts/logo.eot?#iefix") format("embedded-opentype"),
+    url("fonts/logo.woff") format("woff"),
+    url("fonts/logo.ttf") format("truetype"),
+    url("fonts/logo.svg#logo") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "logo" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="ors-"]:before,
+[class*=" ors-"]:before {
+  font-family: "logo" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ors-kadosh-sy:before {
+  content: "\61";
+}
+.ors-whatsapp-sy:before {
+  content: "\62";
+}
+.ors-facebookmess-sy:before {
+  content: "\63";
+}
+.ors-youtube-sy:before {
+  content: "\64";
+}
+.ors-facebook-sy:before {
+  content: "\65";
+}
+.ors-twitter-sy:before {
+  content: "\66";
+}
+.ors-instagram-sy:before {
+  content: "\67";
+}
+.ors-menu-sy:before {
+  content: "\68";
+}
+.ors-close-sy:before {
+  content: "\69";
+}
+.ors-calendarclock:before {
+  content: "\6a";
+}
+.ors-phone:before {
+  content: "\6b";
+}
+.ors-whatsapp:before {
+  content: "\6c";
+}
+.ors-facebookmess:before {
+  content: "\6d";
+}
+.ors-mail:before {
+  content: "\6e";
+}
+.ors-ubicacion:before {
+  content: "\6f";
+}
+.ors-facebookka:before {
+  content: "\70";
+}
+.ors-instagramka:before {
+  content: "\71";
+}
+.ors-twitterka:before {
+  content: "\72";
+}
+.ors-whatsappka:before {
+  content: "\73";
+}
+.ors-youtubeka:before {
+  content: "\74";
+}
+.ors-conection:before {
+  content: "\75";
+}
+.ors-credo:before {
+  content: "\76";
+}
+.ors-valores:before {
+  content: "\77";
+}
+.ors-vision:before {
+  content: "\78";
+}
+.ors-suscribite:before {
+  content: "\79";
+}
+.ors-dedo:before {
+  content: "\7a";
+}

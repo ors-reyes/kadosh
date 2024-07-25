@@ -1,0 +1,34 @@
+.iglesiaImg{
+    width: 100%;
+    height: calc(100vw / 1.5);
+}
+.iglesiaImgA{
+    width: 100vw;
+    background-image: url(../../assets/img/bg2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vw / 2);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+.iglesiaImgB{
+    width: calc(100vw / 2);
+    height: calc(100vw / 2);
+    right: 0;
+    position: absolute;
+    display: none;
+}
+@media screen and (min-width: 425px) {
+    .iglesiaImg{
+        height: calc(100vw / 3);
+    }
+    .iglesiaImgA{
+        width: 100vw;
+        height: calc(100vw / 3);
+    }
+    .iglesiaImgB{
+        width: calc(100vw / 3);
+        height: calc(100vw / 3);
+    }
+}

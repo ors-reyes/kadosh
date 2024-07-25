@@ -1,0 +1,140 @@
+section.servModal{
+    width: 100vw;
+    padding: 15px;
+    height: calc(100vh - 80px);
+    background: #0D71B7;
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 200;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+.casaOra{
+    position: relative;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px rgba(0 0 0 / .5);
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 0.8em;
+}
+.logoSer{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.serTxt{
+    padding: 10px 0;
+    transform: scale(0);
+    transition: all 0.3s;
+    display: none;
+}
+.serbtns{
+    display: flex;
+    flex-direction: column;
+}
+.casaOra a{
+    padding: 10px;
+    box-shadow: 0px 0px 1px rgba(0 0 0 / .5);
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    width: 300px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+    transition: all 0.3s;
+    color: #0D71B7;
+    background: #fff;
+}
+.casaOra a:hover{
+    background: #aaa;
+    box-shadow: 0px 0px 1px rgba(0 0 0 / 1);
+    font-size: 1.5em;
+    color: #fff;
+}
+.casaOra a i{
+    color: #000;
+}
+.casaOra a i:hover{
+    color: #0D71B7;
+}
+.cerramodal{
+    position: absolute;
+    right: 5%;top: 3%;
+    cursor: pointer;
+    color: #aaa;
+    font-size: 2.5em;
+}
+.cerramodal:hover{
+    color: #000;
+}
+@media screen and (min-width: 768px) {
+    section.servModal{
+        padding: 20px;
+    }
+    .casaOra{
+        padding: 20px;
+        font-size: 1.5em;
+    }
+    .logoSer{
+        width: 100px;
+        height: 100px;
+    }
+    .serTxt{
+        padding: 50px 20px;
+        transform: scale(0);
+        transition: all 0.3s;
+        display: none;
+    }
+    .serbtns{
+        display: flex;
+        flex-direction: row;
+    }
+    .casaOra a{
+        text-align: center;
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    section.servModal{
+        width: 100vw;
+        padding: 20px;
+        height: calc(100vh - 147px);
+        position: fixed;
+        top: 147px;
+    }
+    .casaOra{
+        width: 90%;
+        height: 90%;
+        padding: 20px;
+        font-size: 1em;
+        margin: auto;
+    }
+}
+@media screen and (min-width: 1440px) {
+    section.servModal{
+        width: 100vw;
+        padding: 100px;
+        height: calc(100vh - 147px);
+        position: fixed;
+        top: 147px;
+    }
+    .casaOra{
+        width: 90%;
+        height: 90%;
+        padding: 50px;
+        font-size: 1.2em;
+        margin: auto;
+    }
+    .logoSer{
+        width: 150px;
+        height: 150px;
+    }
+}

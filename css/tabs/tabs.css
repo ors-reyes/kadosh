@@ -1,0 +1,127 @@
+section.visionCredoValores{
+    width: 100%;
+    margin: auto;
+    padding: 100px 10px;
+    background: #ddd;
+}
+.tabsContainer{
+    width: 100%;
+    max-width: 80%;
+    min-width: 320px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.tabsButtons{
+    width: 100%;
+    min-height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    gap: 5px;
+}
+.tabsContenidos{
+    width: 100%;
+    min-height: 700px;
+    margin-top: 20px;
+    position: relative;
+}
+.btnTab{
+    cursor: pointer;
+    pointer-events: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    background: rgb(255 255 255 / 0.2);
+    transition: all 0.5s;
+}
+.btnTab.active{
+    transform: scale(0.9);
+    border: 1px solid transparent;
+    box-shadow: 0 0 5px rgb(255 255 255 / 0.2);
+    background: #fff;
+    pointer-events: none;
+    color: #F58634;
+}
+.btnTab:hover{
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.2);
+    color: rgb(0 0 0 / 0.5);
+    border: 1px solid #F58634;
+}
+.btnTab:hover .iconTabs i{
+    color: #F58634;
+}
+.iconTabs i.active {
+    color: rgb(0 0 0 / 0.5);
+}
+.iconTabs i{
+    font-size: 50px;
+    text-align: center;
+    color: #0071BA;
+    transition: all 0.5s;
+}
+.iconTitle{
+    margin-top: -10px;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.tabsContenidos .tituloTxt{
+    font-weight: bold;
+    color: #F58634;
+    font-size: 1.25em;
+    padding-bottom: 10px;
+}
+.txtTab span{
+    color: #F58634;
+}
+.contenidoTab{
+    position: absolute;
+    width: 100%;
+    min-height: 700px;
+    padding: 10px;
+    margin-left: 5px;
+    background: #fff;
+    border-radius: 10px;
+    max-width: calc(100vw - 30px);
+    transition: all 0.5s;
+    opacity: 0;
+}
+.contenidoTab.active{
+    z-index: 1;
+    opacity: 1;
+}
+@media screen and (min-width: 640px) {
+    section.visionCredoValores{
+        padding: 250px 10px 350px 10px;
+    }
+    .tabsContainer{
+        flex-direction: row;
+    }
+    .tabsButtons{
+        max-width: 120px;
+        min-height: 120px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+    .btnTab{
+        padding: 20px;
+    }
+    .tabsContenidos{
+        top: 0;
+        margin-top: 0;
+        min-height: 307px;
+        padding-left: 20px;
+        margin-top: 0;
+        margin-left: 10px;
+    }
+    .contenidoTab{
+        padding: 50px;
+        min-height: 307px;
+        margin-left: 0;
+    }
+}
